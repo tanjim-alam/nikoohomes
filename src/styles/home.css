@@ -1,0 +1,6 @@
+.heroSection {
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.83)),
+        url('../assets/banner.jpg');
+    background-size: cover;
+}
