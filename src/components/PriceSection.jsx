@@ -6,12 +6,6 @@ function PriceSection({ handleOpenModel }) {
     const priceCardArray = new Array(5).fill(null);
     const priceCardData = [
         {
-            id: 1,
-            label: "1 BHK Apartment",
-            price: "65 Lacs*",
-            size: "698-731 Sq.ft."
-        },
-        {
             id: 2,
             label: "2 BHK Apartment",
             price: "1 Cr*",

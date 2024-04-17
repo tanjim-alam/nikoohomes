@@ -8,11 +8,6 @@ import bhk3t from "../assets/3bhk-t.webp"
 function FloorPlanSection({ handleOpenModel }) {
     const floorplanData = [
         {
-            id: 1,
-            floorType: "1 BHK",
-            image: bhk2
-        },
-        {
             id: 2,
             floorType: "2 BHK",
             image: bhk2t
