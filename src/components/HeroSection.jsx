@@ -79,7 +79,7 @@ function HeroSection({ handleOpenModel }) {
                             <p className='bg-gray-800 w-fit p-1 text-md'>Towers : 5</p>
                             <p className='bg-gray-800 w-fit p-1 text-md'>Possession : December 2028</p>
                         </div>
-                        <h3 className=' border-2 border-white text-white lg:py-2 py-1 px-8 rounded-full w-fit '>1, 2, 3 & 4 BHK Apartment</h3>
+                        <h3 className=' border-2 border-white text-white lg:py-2 py-1 px-8 rounded-full w-fit '>2, 3 & 4 BHK Apartment</h3>
                         <h3 className=' border-2 border-white text-white lg:py-2 py-1 px-8 rounded-full w-fit '>
                             Starting Price : ₹ 65 Lacs* </h3>
                         <button onClick={handleOpenModel} className=' bg-red-500 w-fit py-2 px-4 mt-3 text-white rounded-full'>Download Brochure</button>

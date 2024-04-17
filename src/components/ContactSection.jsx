@@ -1,7 +1,9 @@
 import axios from 'axios';
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 
 function ContactSection() {
+    const navigate = useNavigate()
     const api = "https://newsmtp-production.up.railway.app/";
     const [isError, setIsError] = useState(false)
     const [LeadData, setLeadData] = useState({
@@ -36,7 +38,7 @@ function ContactSection() {
                     email: "",
                     number: ""
                 })
-                alert("Submitted Successfully")
+                navigate("/thank")
             }
         } catch (error) {
             setIsError(true)

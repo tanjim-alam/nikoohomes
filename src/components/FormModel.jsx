@@ -4,10 +4,11 @@ import house from "../assets/house.png";
 import rupees from "../assets/rupees.png";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 import { BiSolidPhoneCall } from "react-icons/bi";
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 function FormModel() {
+    const navigate = useNavigate();
     const api = "https://newsmtp-production.up.railway.app/";
     const [isError, setIsError] = useState(false)
     const [LeadData, setLeadData] = useState({
@@ -42,7 +43,7 @@ function FormModel() {
                     email: "",
                     number: ""
                 })
-                alert("Submitted Successfully")
+                navigate("/thank")
             }
         } catch (error) {
             setIsError(true)
