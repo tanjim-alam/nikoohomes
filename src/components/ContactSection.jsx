@@ -8,7 +8,7 @@ function ContactSection() {
         name: "",
         email: "",
         number: "",
-        projectName: "Goyal"
+        projectName: "Nikoo Homes"
     });
 
 
@@ -22,7 +22,6 @@ function ContactSection() {
     }
 
     async function handleSubmit(e) {
-        console.log("clicked")
         e.preventDefault()
         try {
             if (!LeadData.name || !LeadData.email || !LeadData.number) {

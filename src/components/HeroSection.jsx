@@ -29,7 +29,7 @@ function HeroSection({ handleOpenModel }) {
                         <li><NavLink>Master & Floor Plans</NavLink></li>
                         <li><NavLink>Gallery</NavLink></li>
                         <li><NavLink>Location</NavLink></li>
-                        <li className=' bg-red-500 p-2 rounded-3xl'><NavLink to="tel:+918808077653">+91 8808077653</NavLink></li>
+                        <li className=' bg-red-500 p-2 rounded-3xl'><NavLink to="tel:+918808077653">+91 8150049883</NavLink></li>
                     </ul>
                 </div>
                 <div className=' lg:hidden block'>
@@ -50,7 +50,7 @@ function HeroSection({ handleOpenModel }) {
                                 <li><NavLink>Master & Floor Plans</NavLink></li>
                                 <li><NavLink>Gallery</NavLink></li>
                                 <li><NavLink>Location</NavLink></li>
-                                <li className=' bg-red-500 text-white p-2 rounded-3xl'><NavLink to="tel:+918808077653">+91 8808077653</NavLink></li>
+                                <li className=' bg-red-500 text-white p-2 rounded-3xl'><NavLink to="tel:+918808077653">+91 8150049883</NavLink></li>
 
                             </ul>
                         </div>
@@ -65,7 +65,7 @@ function HeroSection({ handleOpenModel }) {
                         <li><NavLink>Master & Floor Plans</NavLink></li>
                         <li><NavLink>Gallery</NavLink></li>
                         <li><NavLink>Location</NavLink></li>
-                        <li className=' bg-red-500  p-2 rounded-3xl'><NavLink to="tel:+918808077653">+91 8808077653</NavLink></li>
+                        <li className=' bg-red-500  p-2 rounded-3xl'><NavLink to="tel:+918808077653">+91 8150049883</NavLink></li>
                     </ul>
                 </div>
             </div>
@@ -75,9 +75,9 @@ function HeroSection({ handleOpenModel }) {
                         <p className=' text-yellow-600 text-sm font-medium' >KOGILU MAIN ROAD, MARUTHI NAGAR, BANGALORE</p>
                         <h2 className=' lg:text-4xl text-2xl font-semibold text-white'>NIKOO HOME 5 & 6</h2>
                         <div className=' mt-2 flex-col gap-2 flex text-white '>
-                            <p className='bg-gray-800 w-fit p-1 text-sm'>Land Area : 8 Acres</p>
-                            <p className='bg-gray-800 w-fit p-1 text-sm'>Towers : 5</p>
-                            <p className='bg-gray-800 w-fit p-1 text-sm'>Possession : December 2028</p>
+                            <p className='bg-gray-800 w-fit p-1 text-md'>Land Area : 8 Acres</p>
+                            <p className='bg-gray-800 w-fit p-1 text-md'>Towers : 5</p>
+                            <p className='bg-gray-800 w-fit p-1 text-md'>Possession : December 2028</p>
                         </div>
                         <h3 className=' border-2 border-white text-white lg:py-2 py-1 px-8 rounded-full w-fit '>1, 2, 3 & 4 BHK Apartment</h3>
                         <h3 className=' border-2 border-white text-white lg:py-2 py-1 px-8 rounded-full w-fit '>

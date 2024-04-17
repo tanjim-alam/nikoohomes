@@ -8,7 +8,7 @@ function Form() {
         name: "",
         email: "",
         number: "",
-        projectName: "Goyal"
+        projectName: "Nikoo Homes"
     });
 
 

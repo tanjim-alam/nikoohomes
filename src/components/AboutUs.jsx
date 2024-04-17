@@ -9,7 +9,7 @@ function AboutUs() {
                     <p className=' text-red-500 font-medium'>ABOUT US</p>
                     <h3 className=' text-3xl font-medium mt-2'>Makes your self at home and enjoy a unique experience</h3>
                     <h4 className=' mt-3 text-lg font-light'>Kogilu Main Road, Maruthi Nagar, Bangalore</h4>
-                    <p className=' mt-3 font-extralight'>
+                    <p className=' mt-3 font-sans'>
                         Bhartiya city Nikko Homes is a luxury residential apartments project comprising 1, 2, 3, & 4 BHK Bedroom residences and loft Duplex Homes located at Kogil Main Road, Maruthi Nagar, Bangalore. Imagine life in a home that meets all of your everyday needs. At home where every inch has been considered and crafted to the highest level. There's room for you to grow and the scope for change. More than a home, it’s a place to call your own. For those looking to buy a residential property, here comes one of the choicest offerings in Bangalore North, at Thanisandra. Brought to you by Bartiya Group, Bartiya City Nikoo Homes is among the newest addresses for homebuyers.
                     </p>
                 </div>
